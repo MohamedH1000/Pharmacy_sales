@@ -1,6 +1,9 @@
+import PopularHairCare from '../components/popular/popular_haircare'
+
+//a page for displaying the design of the hair care page
 const HairCare = () => {
     return ( 
-        <h1>haircare</h1>
+        <div style={{backgroundColor:'var(--bg-color-light)'}}><PopularHairCare/></div>
      );
 }
  

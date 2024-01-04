@@ -1,6 +1,8 @@
+import PopularHealth from "../components/popular/popular_health";
+
 const HealthCareDevice = () => {
     return (
-        null
+        <div style={{backgroundColor:'var(--bg-color-light)'}}><PopularHealth/></div>
      );
 }
  

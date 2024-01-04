@@ -1,6 +1,11 @@
+import './css/medication.css'
+import Popular from '../components/popular/Popular_medication'
+
 const Medication = () => {
     return ( 
-        <h1>Here is the medication</h1>
+        <div className='medication'>
+            <Popular/>
+        </div>
      );
 }
  

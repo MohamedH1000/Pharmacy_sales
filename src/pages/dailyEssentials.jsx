@@ -1,8 +1,9 @@
+import PopularDaily from "../components/popular/popular_daily";
 
-
+// a page for displaying the design of the daily essentials page design
 const DailyEssentials = () => {
     return ( 
-        <h1>Hello World!</h1>
+        <div style={{backgroundColor:'var(--bg-color-light)'}}><PopularDaily/></div>
      );
 }
  
