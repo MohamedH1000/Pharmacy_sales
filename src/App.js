@@ -1,7 +1,7 @@
 import './App.css'
 import NavBar from './components/navigationbar/navigationBar'
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
 import Medication from './pages/medication'
 import HairCare from './pages/hairCare'
 import SkinCare from './pages/skinCare'
