@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.185ba83a.css",
+    "main.js": "/static/js/main.81af4148.js",
+    "static/js/496.c5dba306.chunk.js": "/static/js/496.c5dba306.chunk.js",
+    "static/media/medication_banner.webp": "/static/media/medication_banner.6c89a2100c8dcbd596e7.webp",
+    "static/media/strepsils.webp": "/static/media/strepsils.66b59fc829a329870ce0.webp",
+    "static/media/strepsils_1.webp": "/static/media/strepsils_1.3d676cbffbf70f772b2a.webp",
+    "static/media/returnwaffar.svg": "/static/media/returnwaffar.9e6d0c9fcb18235d561334b64ba60f9d.svg",
+    "static/media/eucalyptos.webp": "/static/media/eucalyptos.ea0af509c554eb3ba74b.webp",
+    "static/media/lemon_drops.webp": "/static/media/lemon_drops.bfc2d6de832101681b19.webp",
+    "static/media/fine_test.webp": "/static/media/fine_test.731e1ed847fd4ac9985a.webp",
+    "static/media/vaseline.webp": "/static/media/vaseline.a07fa0abc5a1b1f5c08f.webp",
+    "static/media/streps.webp": "/static/media/streps.a3c4a251db19314a51c3.webp",
+    "static/media/accu_chek.webp": "/static/media/accu_chek.43d6865461daddd317ef.webp",
+    "static/media/Nebulizer_star.webp": "/static/media/Nebulizer_star.67cfbd51ab10a8b43fb1.webp",
+    "static/media/pharmacyLogo.webp": "/static/media/pharmacyLogo.f3b237d630d31f2377f9.webp",
+    "static/media/delivery_time_waffar.svg": "/static/media/delivery_time_waffar.f168968d02e2619ba4fd2515a54ba559.svg",
+    "static/media/Storefrontwaffar.svg": "/static/media/Storefrontwaffar.cd2fcb78da7bedb18ddf3f41bb112106.svg",
+    "static/media/pulse_oximeter.webp": "/static/media/pulse_oximeter.0a8f744905c44f867d6d.webp",
+    "index.html": "/index.html",
+    "main.185ba83a.css.map": "/static/css/main.185ba83a.css.map",
+    "main.81af4148.js.map": "/static/js/main.81af4148.js.map",
+    "496.c5dba306.chunk.js.map": "/static/js/496.c5dba306.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.185ba83a.css",
+    "static/js/main.81af4148.js"
+  ]
+}
