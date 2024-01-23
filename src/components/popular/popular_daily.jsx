@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './popular_daily.css'
 import daily_essentials from '../assets/daily-essentials'
 import Item from '../Item/Item'
-import Pagination from '../pagination/pagination'
+import Paginationnum from '../pagination/pagination'
 
 // popular daily category design
 const PopularDaily = () => {
@@ -21,7 +21,7 @@ const PopularDaily = () => {
           })}
         </div>
         <div>
-          <Pagination totalPost={daily_essentials.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
+          <Paginationnum totalPost={daily_essentials.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
         </div>
     </div>
   )

@@ -4,11 +4,10 @@ import {FaShoppingCart} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 // design of the search engine bar
-const SearchEngine = (props) => {
+const SearchEngine = ({searchItem, handleChange}) => {
     const searchHandler = (e) => {
             e.preventDefault();
     }
-    const {searchItem, handleChange} = props;
     return (
         <div className="search">
             <form className='form' onSubmit={searchHandler}>

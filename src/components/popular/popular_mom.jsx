@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './popular_mom.css'
 import mom_and_baby from '../assets/mom-and-baby'
 import Item from '../Item/Item'
-import Pagination from '../pagination/pagination'
+import Paginationnum from '../pagination/pagination'
 
 // mom category design of the website
 const PopularMom = () => {
@@ -20,7 +20,7 @@ const PopularMom = () => {
           })}
         </div>
         <div>
-          <Pagination totalPost={mom_and_baby.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
+          <Paginationnum totalPost={mom_and_baby.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
         </div>
     </div>
   )

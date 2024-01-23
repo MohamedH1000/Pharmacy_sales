@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import Item from '../Item/Item'
 import './popular_vitamins.css'
-import Pagination from '../pagination/pagination'
 import vitamins from '../assets/vitamins'
+import Paginationnum from '../pagination/pagination'
 
 //vitamins and supplements category design in the website
 const PopularVitamins = () => {
@@ -21,7 +21,7 @@ const PopularVitamins = () => {
           })}
         </div>
         <div>
-          <Pagination totalPost={vitamins.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
+          <Paginationnum totalPost={vitamins.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
         </div>
     </div>
   )

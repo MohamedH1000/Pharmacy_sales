@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import './popular_health.css'
 import Item from '../Item/Item'
-import Pagination from '../pagination/pagination'
 import health_care_devices from '../assets/health-care-devices'
+import Paginationnum from '../pagination/pagination'
 
 //popular health design of the website
 const PopularHealth = () => {
@@ -24,7 +24,7 @@ const PopularHealth = () => {
           })}
         </div>
         <div>
-          <Pagination totalPost={health_care_devices.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
+          <Paginationnum totalPost={health_care_devices.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
         </div>
     </div>
   )

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './popular_medication.css'
 import Item from '../Item/Item'
 import medication_banner from '../assets/banner/medication_banner.webp'
-import Pagination from '../pagination/pagination'
+import Paginationnum from '../pagination/pagination'
 import '../pagination/pagination.css'
 import medication from '../assets/medication'
 
@@ -23,7 +23,7 @@ const Popular = () => {
           })}
         </div>    
         <div>
-          <Pagination totalPost={medication.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
+          <Paginationnum totalPost={medication.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
         </div>
     </div>
   )

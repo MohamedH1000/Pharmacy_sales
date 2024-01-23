@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import './popular_haircare.css'
 import Item from '../Item/Item'
-import Pagination from '../pagination/pagination'
 import hair_care from '../assets/hair-care'
+import Paginationnum from '../pagination/pagination'
 
 // popular hair care design of the website
 const PopularHairCare = () => {
@@ -20,7 +20,7 @@ const PopularHairCare = () => {
           })}
         </div>
         <div>
-          <Pagination totalPost={hair_care.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
+          <Paginationnum totalPost={hair_care.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
         </div>
     </div>
   )

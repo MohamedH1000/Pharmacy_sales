@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './popular_makeup.css'
 import Item from '../Item/Item'
 import makeup_and_accessories from '../assets/makeup-and-accessories'
-import Pagination from '../pagination/pagination'
+import Paginationnum from '../pagination/pagination'
 
 
 //popular make up category design of the website
@@ -26,7 +26,7 @@ const PopularMakeUp = () => {
           })}
         </div>
         <div>
-          <Pagination totalPost={makeup_and_accessories.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
+          <Paginationnum totalPost={makeup_and_accessories.length} postPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/> 
         </div>
     </div>
   )
