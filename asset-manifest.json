@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Pharmacy_sales/static/css/main.185ba83a.css",
-    "main.js": "/Pharmacy_sales/static/js/main.cc61da76.js",
-    "static/js/496.c5dba306.chunk.js": "/Pharmacy_sales/static/js/496.c5dba306.chunk.js",
+    "main.js": "/Pharmacy_sales/static/js/main.034126bc.js",
+    "static/js/496.83e87068.chunk.js": "/Pharmacy_sales/static/js/496.83e87068.chunk.js",
     "static/media/medication_banner.webp": "/Pharmacy_sales/static/media/medication_banner.6c89a2100c8dcbd596e7.webp",
     "static/media/strepsils.webp": "/Pharmacy_sales/static/media/strepsils.66b59fc829a329870ce0.webp",
     "static/media/strepsils_1.webp": "/Pharmacy_sales/static/media/strepsils_1.3d676cbffbf70f772b2a.webp",
@@ -20,11 +20,11 @@
     "static/media/pulse_oximeter.webp": "/Pharmacy_sales/static/media/pulse_oximeter.0a8f744905c44f867d6d.webp",
     "index.html": "/Pharmacy_sales/index.html",
     "main.185ba83a.css.map": "/Pharmacy_sales/static/css/main.185ba83a.css.map",
-    "main.cc61da76.js.map": "/Pharmacy_sales/static/js/main.cc61da76.js.map",
-    "496.c5dba306.chunk.js.map": "/Pharmacy_sales/static/js/496.c5dba306.chunk.js.map"
+    "main.034126bc.js.map": "/Pharmacy_sales/static/js/main.034126bc.js.map",
+    "496.83e87068.chunk.js.map": "/Pharmacy_sales/static/js/496.83e87068.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.185ba83a.css",
-    "static/js/main.cc61da76.js"
+    "static/js/main.034126bc.js"
   ]
 }
